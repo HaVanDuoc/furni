@@ -1,13 +1,13 @@
 import React from "react";
 
-const AboutBanner = () => {
+const BannerBlog = () => {
     return (
         <div class="hero">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-5">
                         <div class="intro-excerpt">
-                            <h1>About Us</h1>
+                            <h1>Blog</h1>
                             <p class="mb-4">
                                 Donec vitae odio quis nisl dapibus malesuada.
                                 Nullam ac aliquet velit. Aliquam vulputate velit
@@ -38,4 +38,4 @@ const AboutBanner = () => {
     );
 };
 
-export default AboutBanner;
+export default BannerBlog;
