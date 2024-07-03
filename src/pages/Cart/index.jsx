@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { useNavigate } from "react-router-dom";
+import BannerCart from "./components/BannerCart";
 
 const products = [
     {
@@ -27,26 +28,7 @@ const Cart = () => {
 
     return (
         <Fragment>
-            <div className="hero">
-                <div className="container">
-                    <div className="row justify-content-between">
-                        <div className="col-lg-5">
-                            <div className="intro-excerpt">
-                                <h1>Cart</h1>
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="hero-img-wrap">
-                                <img
-                                    src="assets/images/couch.png"
-                                    alt=""
-                                    className="img-fluid"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <BannerCart />
 
             <div className="untree_co-section before-footer-section">
                 <div className="container">

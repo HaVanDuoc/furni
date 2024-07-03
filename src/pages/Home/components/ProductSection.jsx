@@ -7,19 +7,19 @@ const ProductSection = () => {
             imgSrc: "assets/images/product-1.png",
             title: "Nordic Chair",
             price: "$50.00",
-            link: "cart.html",
+            link: "cart",
         },
         {
             imgSrc: "assets/images/product-2.png",
             title: "Kruzo Aero Chair",
             price: "$78.00",
-            link: "cart.html",
+            link: "cart",
         },
         {
             imgSrc: "assets/images/product-3.png",
             title: "Ergonomic Chair",
             price: "$43.00",
-            link: "cart.html",
+            link: "cart",
         },
     ];
 
@@ -37,7 +37,7 @@ const ProductSection = () => {
                             dolor tempor tristique.
                         </p>
                         <p>
-                            <Link to="shop.html" className="btn">
+                            <Link to="shop" className="btn">
                                 Explore
                             </Link>
                         </p>

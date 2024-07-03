@@ -1,10 +1,10 @@
 import React from "react";
-import HeroSection from "./../Home/components/HeroSection";
+import BannerShop from "./components/BannerShop";
 
 const Shop = () => {
     return (
         <div>
-            <HeroSection />
+            <BannerShop />
 
             <div className="untree_co-section product-section before-footer-section">
                 <div className="container">
